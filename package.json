@@ -1,0 +1,26 @@
+{
+  "name": "automatic-team",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaqrivera/automatic-team.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaqrivera/automatic-team/issues"
+  },
+  "homepage": "https://github.com/shaqrivera/automatic-team#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
