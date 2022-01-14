@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const renderCards = require('./src/renderCards');
+const renderHtml = require('./src/renderHtml');
 const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 const Manager = require('./lib/manager');
@@ -81,7 +82,8 @@ const newEmployeePrompt = () => inquirer.prompt(questions).then((answers)=>{
     }
 }).then((employeesArray)=>{
     const cards = renderCards(employeesArray);
-    console.log(cards);
-    //fs.writeFile('cards.html', cards.toString(), (err) => {console.log(err)})
+    const html = renderHtml(cards);
+    
+    fs.writeFile('./dist/autoPage.html', html, (err) => {console.log(err)})
 });
 newEmployeePrompt();

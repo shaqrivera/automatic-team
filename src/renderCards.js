@@ -5,9 +5,19 @@ const renderCards = (employees) =>{
         const e = employees[i];
         let values = Object.values(e);
         let keys = Object.keys(e);
-        let card = `<card class ='card'><h1 id='name'>${values[0]}</h1><h2 id='role'>${values[3]}</h2><p id='id'>ID: ${values[1]}</p><p id='email'>Email: ${values[2]}</p><p id='unique'>${keys[4]}: ${values[4]}</p></card>`;
+        let card = `<div class="card text-center my-3" style="width: 18rem;">
+        <div class="card-body bg-primary text-light">
+          <h3 class="card-title">${values[0]}</h3>
+          <p class="card-text">${values[3]}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">ID: ${values[1]}</li>
+          <li class="list-group-item">Email: ${values[2]}</li>
+          <li class="list-group-item">${keys[4]}: ${values[4]}</li>
+        </ul>
+      </div>`;
          cards.push(card);
         }} 
-    return cards
+    return cards.join(" ")
 };
     module.exports = renderCards;
