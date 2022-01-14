@@ -84,6 +84,6 @@ const newEmployeePrompt = () => inquirer.prompt(questions).then((answers)=>{
     const cards = renderCards(employeesArray);
     const html = renderHtml(cards);
     
-    fs.writeFile('./dist/autoPage.html', html, (err) => {console.log(err)})
+    fs.writeFile('./dist/autoPage.html', html, (err) => {if (err){console.log(err)} else {console.log('File successfully written to the "dist" directory')}})
 });
 newEmployeePrompt();
