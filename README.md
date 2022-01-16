@@ -10,17 +10,17 @@
   - [Questions](#questions)
   - [License](#license)
   ## Installation
-  First install Node.js Link to install Node.js . Finally, install required dependencies using 'npm i'. That's it! You're all set to run the Automatic Team Generator.
+  First install Node.js <a href="https://nodejs.org/en/download/" target="_blank">Link to install Node.js</a> Finally, install required dependencies using 'npm i'. That's it! You're all set to run the Automatic Team Generator.
   ## Usage
   Once the required dependencies are installed, simply use the terminal command 'node index.js' in the main directory to initialize the generator.
-  
+  <a href="https://drive.google.com/file/d/1lWuDMA6Tsk-qQZAJk_fTe1uJTVvZU1hu/view?usp=sharing" target="_blank">Link to instructional video</a>
   ## Contributing
   Anybody can use this generator, and modify it.
   ## Tests
-  After running this application you should recieve the message 'File successfully written to the "dist" directory' in your terminal. There should be a file in the main directory named autoPage.html.
+  After running this application you should receive the message 'File successfully written to the "dist" directory' in your terminal. There should be a file in the main directory named autoPage.html.
   
   ## Questions
-  Github username : shaqrivera
+  Github username : <a href="https://github.com/shaqrivera" target="_blank">shaqrivera</a>
   
   If you have any questions, please submit inquiries to shaq.rivera@gmail.com.
   
