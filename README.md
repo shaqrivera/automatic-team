@@ -1,6 +1,9 @@
 ![license badge](https://img.shields.io/badge/license-MIT_License-blue)
+
   # Automatic Team Generator
+  
   <img width="770" alt="Screen Shot 2022-04-21 at 1 01 08 PM" src="https://user-images.githubusercontent.com/90933707/164512952-22f391f7-aacd-4022-8296-3422ca5919e1.png">
+  
   ## Description
   This project uses Node.js and inquirer to create a dynamic HTML file based on the user's input through their terminal.
   ## Table of Contents
